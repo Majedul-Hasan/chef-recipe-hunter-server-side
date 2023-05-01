@@ -7,13 +7,6 @@
       "recipes": [
         "52768",
         "52893",
-        "52767",
-        "52792",
-        "52803",
-        "52824",
-        "52842",
-        "52848",
-        "52873",
         "52874",
         "52878"
       ],
@@ -31,11 +24,7 @@
   "52894",
   "52959",
   "52788",
-  "52841",
-  "52846",
-  "52853",
-  "52875",
-  "52897"
+  "52841"
       ],
       "experience": 10,
       "photoUrl": "http://placehold.it/32x32"
@@ -46,17 +35,12 @@
       "guid": "9961061e-bc19-48f9-aa7b-496a1443e055",
       "name": "Klein Stevens",
       "recipes": [
-        "52898","52966",
-  "52989",
-  "52988",
-  "52990",
-  "52899",
-  "52791",
-  "52888",
-  "52895",
-  "52802",
-  "52896",
-  "52890"
+        "52898",
+        "52966",
+        "52989",
+        "52988",
+        "52896",
+        "52890"
       ],
       "experience": 8,
       "photoUrl": "http://placehold.it/32x32"
@@ -68,16 +52,8 @@
       "name": "Elnora Phelps",
       "recipes": [
         "52887",
-  "52877",
-  "52884",
-  "52864",
-  "52876",
-  "52880",
-  "52900",
-  "52991",
-  "52902",
-  "52886",
-  "52889"
+        "52877",
+        "52884"
       ],
       "experience": 7,
       "photoUrl": "http://placehold.it/32x32"
@@ -91,11 +67,7 @@
         "52960",
         "53005",
         "52822",
-        "52845",
-        "52882",
-        "52892",
-        "52863",
-        "52867"
+        "52845"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -170,7 +142,13 @@
       "guid": "39deef54-8d16-4edc-aa85-a323b6f56dfe",
       "name": "Celeste Morrison",
       "recipes": [
-        0
+        "52812",
+        "52855",
+        "52995",
+        "53013",
+        "52818",
+        "52840",
+        "52856"
       ],
       "experience": 13,
       "photoUrl": "http://placehold.it/32x32"
@@ -181,7 +159,14 @@
       "guid": "b0af951f-63af-43f1-998d-cb9719a6a5ad",
       "name": "Marcia Meyer",
       "recipes": [
-        0
+        "52860",
+  "53016",
+  "52957",
+  "52996",
+  "52829",
+  "52787",
+  "52993",
+  "52813"
       ],
       "experience": 8,
       "photoUrl": "http://placehold.it/32x32"
@@ -192,7 +177,13 @@
       "guid": "a7a6110b-5fcb-454f-9249-d8f0d8dbda3d",
       "name": "Rosella Harmon",
       "recipes": [
-        0
+        "52859",
+  "53015",
+  "52987",
+  "52858",
+  "52854",
+  "52857",
+  "52861"
       ],
       "experience": 12,
       "photoUrl": "http://placehold.it/32x32"
@@ -203,7 +194,16 @@
       "guid": "e6eeb0cb-2777-4a32-adbb-392430e00466",
       "name": "Franco Taylor",
       "recipes": [
-        0
+        "52862",
+  "52958",
+  "52786",
+  "52816",
+  "52817",
+  "52833",
+  "52962",
+  "52992",
+  "52994",
+  "52794"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -214,7 +214,11 @@
       "guid": "35a90a32-6c8b-407f-9f95-1e4da152c9ef",
       "name": "Christine Mcneil",
       "recipes": [
-        0
+        "52826",
+        "52765",
+        "52819",
+        "52830",
+        "52870"
       ],
       "experience": 8,
       "photoUrl": "http://placehold.it/32x32"
@@ -225,7 +229,7 @@
       "guid": "721dc6b8-b0db-4b65-94a5-9a418a350b46",
       "name": "Cohen Cantrell",
       "recipes": [
-        0
+        "52834"
       ],
       "experience": 10,
       "photoUrl": "http://placehold.it/32x32"
@@ -236,7 +240,14 @@
       "guid": "320ef4e8-526b-43d7-941c-75811ebbe211",
       "name": "Kramer Mercer",
       "recipes": [
-        0
+        "52904",
+  "52913",
+  "52914",
+  "52776",
+  "52832",
+  "52879",
+  "52905",
+  "52910"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -247,7 +258,15 @@
       "guid": "8b816498-9964-47d6-ad6f-575e9a35522d",
       "name": "Dillard Dean",
       "recipes": [
-        0
+        "52920",
+  "52934",
+  "52907",
+  "52815",
+  "52903",
+  "52906",
+  "52915",
+  "52918",
+  "52919"
       ],
       "experience": 5,
       "photoUrl": "http://placehold.it/32x32"
@@ -258,7 +277,12 @@
       "guid": "7d66784b-ebfc-4cb8-9bc2-c385fbef4303",
       "name": "Estela Pugh",
       "recipes": [
-        0
+        "52847",
+  "52916",
+  "52921",
+  "52922",
+  "52908",
+  "52911"
       ],
       "experience": 7,
       "photoUrl": "http://placehold.it/32x32"
@@ -269,7 +293,11 @@
       "guid": "87a5ca62-46be-4de9-afef-37297853fb6e",
       "name": "Olive Hawkins",
       "recipes": [
-        0
+        "52935",
+        "52852",
+        "52909",
+        "52912",
+        "52917"
       ],
       "experience": 11,
       "photoUrl": "http://placehold.it/32x32"
@@ -280,7 +308,12 @@
       "guid": "c5699d50-ef67-4966-bccb-b89ebb1d2c27",
       "name": "Sallie Powell",
       "recipes": [
-        0
+        "52928",
+  "52965",
+  "52923",
+  "52927",
+  "52924",
+  "52804"
       ],
       "experience": 8,
       "photoUrl": "http://placehold.it/32x32"
@@ -291,7 +324,13 @@
       "guid": "b9fb6596-40a1-402d-a262-31f2b82a641b",
       "name": "Lorie Vega",
       "recipes": [
-        0
+        "52930",
+        "52932",
+        "52933",
+        "52925",
+        "52931",
+        "52926",
+        "52929"
       ],
       "experience": 7,
       "photoUrl": "http://placehold.it/32x32"
@@ -302,7 +341,14 @@
       "guid": "4dad17af-cf2d-4a2c-b644-a581d967cda0",
       "name": "Barlow Orr",
       "recipes": [
-        0
+        "52940",
+        "52939",
+        "52944",
+        "52937",
+        "52938",
+        "52943",
+        "52941",
+        "52936"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -313,7 +359,11 @@
       "guid": "6d82f849-1559-4294-8357-cf1d7ab07023",
       "name": "Terry Mack",
       "recipes": [
-        0
+        "52952",
+  "52956",
+  "52955",
+  "52951",
+  "52954"
       ],
       "experience": 9,
       "photoUrl": "http://placehold.it/32x32"
@@ -324,7 +374,13 @@
       "guid": "15c6f676-a1ad-4888-9308-30c629c65ae0",
       "name": "Roth Reed",
       "recipes": [
-        0
+        "52945",
+  "52946",
+  "52947",
+  "52949",
+  "52950",
+  "52953",
+  "52948"
       ],
       "experience": 6,
       "photoUrl": "http://placehold.it/32x32"
@@ -335,7 +391,12 @@
       "guid": "907d91b9-ca76-4b9c-abf8-0c62f8f39f3f",
       "name": "Whitehead Howell",
       "recipes": [
-        0
+        "52961",
+  "52796",
+  "52839",
+  "52835",
+  "53064",
+  "52844"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -346,7 +407,12 @@
       "guid": "c5b13e68-62b1-4cc2-ae59-e7cb58765276",
       "name": "Flowers Riddle",
       "recipes": [
-        0
+        "52777",
+        "52810",
+        "52837",
+        "53014",
+        "52811",
+        "52770"
       ],
       "experience": 10,
       "photoUrl": "http://placehold.it/32x32"
@@ -357,7 +423,13 @@
       "guid": "d75247d7-2681-475d-bd45-a542dcc35826",
       "name": "Carlson Jordan",
       "recipes": [
-        0
+        "52771",
+        "52823",
+        "52849",
+        "52866",
+        "52982",
+        "52775",
+        "52838"
       ],
       "experience": 11,
       "photoUrl": "http://placehold.it/32x32"
@@ -368,7 +440,10 @@
       "guid": "fec13eaa-f48a-423b-92f7-8c433dddf2dc",
       "name": "Hart Sykes",
       "recipes": [
-        0
+        "52979",
+  "52769",
+  "52980",
+  "52981"
       ],
       "experience": 9,
       "photoUrl": "http://placehold.it/32x32"
@@ -379,7 +454,8 @@
       "guid": "85f8b764-6e0c-4053-bca0-da38bf8577b6",
       "name": "Elsa Trevino",
       "recipes": [
-        0
+        "52997",
+  "52828"
       ],
       "experience": 7,
       "photoUrl": "http://placehold.it/32x32"
@@ -390,7 +466,10 @@
       "guid": "c57a68ab-fb7a-406d-bdba-7d6c60ec7042",
       "name": "Paige Bond",
       "recipes": [
-        0
+        "53018",
+        "53021",
+        "53017",
+        "53019"
       ],
       "experience": 10,
       "photoUrl": "http://placehold.it/32x32"
@@ -401,7 +480,10 @@
       "guid": "70b8e280-d7d3-427e-9e65-51e2dd150449",
       "name": "Salinas Hyde",
       "recipes": [
-        0
+        "53022",
+        "53020",
+        "53024",
+        "53023"
       ],
       "experience": 9,
       "photoUrl": "http://placehold.it/32x32"
@@ -412,7 +494,14 @@
       "guid": "fa730b24-7fc5-468a-835d-e114fecf29bc",
       "name": "Esperanza Porter",
       "recipes": [
-        0
+        "53036",
+        "52998",
+        "52999",
+        "53037",
+        "53035",
+        "52781",
+        "53038",
+        "53000"
       ],
       "experience": 6,
       "photoUrl": "http://placehold.it/32x32"
@@ -423,7 +512,11 @@
       "guid": "2e0adaba-ce3c-4f75-8173-42377fd0d1d4",
       "name": "Monique Haney",
       "recipes": [
-        0
+        "53060",
+        "53055",
+        "53056",
+        "53058"
+  
       ],
       "experience": 10,
       "photoUrl": "http://placehold.it/32x32"
@@ -434,7 +527,9 @@
       "guid": "63bb988a-881f-422b-850c-babcc0eac2f2",
       "name": "Rachael Collins",
       "recipes": [
-        0
+        "52779",
+        "53063",
+        "52780"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -445,7 +540,11 @@
       "guid": "8d54bfce-e855-4fc4-b396-a04a0e2e73a6",
       "name": "Kasey Santiago",
       "recipes": [
-        0
+        "52831",
+        "52773",
+        "53033",
+        "53034"
+       
       ],
       "experience": 5,
       "photoUrl": "http://placehold.it/32x32"
@@ -456,7 +555,11 @@
       "guid": "89bb3005-5b09-450a-87a1-63a6173ade2b",
       "name": "Puckett Cochran",
       "recipes": [
-        0
+        "52820",
+        "53065",
+        "52772",
+        "53032",
+        "52871"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -467,7 +570,10 @@
       "guid": "8fa019e3-3e07-4de5-93d4-9f9629137cce",
       "name": "Sweeney Brock",
       "recipes": [
-        0
+        "52850",
+        "52782",
+        "52843",
+        "53047"
       ],
       "experience": 12,
       "photoUrl": "http://placehold.it/32x32"
@@ -478,7 +584,9 @@
       "guid": "6188a2e6-d650-4ab9-bc9f-c34a215f4ce1",
       "name": "Price Norton",
       "recipes": [
-        0
+        "52783",
+        "52797",
+        "52869"
       ],
       "experience": 11,
       "photoUrl": "http://placehold.it/32x32"
@@ -489,7 +597,10 @@
       "guid": "ac18289e-7c6b-4a12-a900-b76985db16b4",
       "name": "Edith Castillo",
       "recipes": [
-        0
+        "52969",
+        "52976",
+        "52971",
+        "52974"
       ],
       "experience": 15,
       "photoUrl": "http://placehold.it/32x32"
@@ -500,7 +611,10 @@
       "guid": "cb42659b-23ce-4222-af6a-96d45825d19e",
       "name": "Velma Dillon",
       "recipes": [
-        0
+        "52973",
+        "52970",
+        "52972",
+        "52975"
       ],
       "experience": 6,
       "photoUrl": "http://placehold.it/32x32"
@@ -511,7 +625,8 @@
       "guid": "f6394805-87f2-4509-967c-4abb9d3fa847",
       "name": "Jones Knight",
       "recipes": [
-        0
+        "52977",
+        "52978"
       ],
       "experience": 5,
       "photoUrl": "http://placehold.it/32x32"
@@ -522,7 +637,10 @@
       "guid": "277a0f7d-54f9-43c5-a035-5202500e81a6",
       "name": "Fern Mcdowell",
       "recipes": [
-        0
+        "53011",
+        "52764",
+        "53012",
+        "53007"
       ],
       "experience": 15,
       "photoUrl": "http://placehold.it/32x32"
@@ -533,7 +651,10 @@
       "guid": "6645d1d3-688f-411a-9f6b-781326ffe868",
       "name": "Donaldson Allen",
       "recipes": [
-        0
+        "53009",
+        "53010",
+        "53006",
+        "53008"
       ],
       "experience": 11,
       "photoUrl": "http://placehold.it/32x32"
@@ -544,7 +665,10 @@
       "guid": "634e768e-f5ee-434b-924b-018712f644b1",
       "name": "Bush Hartman",
       "recipes": [
-        0
+        "53031",
+        "53025",
+        "53030",
+        "53027"
       ],
       "experience": 8,
       "photoUrl": "http://placehold.it/32x32"
@@ -555,7 +679,10 @@
       "guid": "d49d8c98-6c14-4c54-a3c6-fa4918af43be",
       "name": "Althea Peters",
       "recipes": [
-        0
+        "53029",
+        "52963",
+        "53028",
+        "53026"
       ],
       "experience": 11,
       "photoUrl": "http://placehold.it/32x32"
@@ -566,7 +693,11 @@
       "guid": "076a4004-29a7-4a9f-b6b9-04c57a7caf38",
       "name": "Mia White",
       "recipes": [
-        0
+        "53043",
+        "53041",
+        "53039",
+        "53042",
+        "53044"
       ],
       "experience": 12,
       "photoUrl": "http://placehold.it/32x32"
@@ -577,7 +708,9 @@
       "guid": "0d6cb2bb-f5fb-4a87-90b3-5c4e71074866",
       "name": "Woodard Macias",
       "recipes": [
-        0
+        "53045",
+        "53046",
+        "53040"
       ],
       "experience": 9,
       "photoUrl": "http://placehold.it/32x32"
@@ -588,7 +721,8 @@
       "guid": "6f07e4bf-95fe-42a7-98a3-41f74259a71d",
       "name": "Russo Arnold",
       "recipes": [
-        0
+        "52967",
+        "52968"   
       ],
       "experience": 12,
       "photoUrl": "http://placehold.it/32x32"
@@ -599,7 +733,9 @@
       "guid": "9e0daf0c-6eb8-4cee-8871-0391a08dfdf7",
       "name": "Castaneda Greene",
       "recipes": [
-        0
+        "52827",
+        "52774",
+        "52814"
       ],
       "experience": 15,
       "photoUrl": "http://placehold.it/32x32"
@@ -610,7 +746,9 @@
       "guid": "d2904cc7-5628-4825-b926-5193bbedbcca",
       "name": "Kennedy Roth",
       "recipes": [
-        0
+        "52942",
+        "52836",
+        "52872"
       ],
       "experience": 15,
       "photoUrl": "http://placehold.it/32x32"
@@ -621,7 +759,10 @@
       "guid": "595af833-24db-4186-8c27-fc0875ebcc24",
       "name": "Mejia Levine",
       "recipes": [
-        0
+        "52882",
+        "52892",
+        "52863",
+        "52867"
       ],
       "experience": 6,
       "photoUrl": "http://placehold.it/32x32"
@@ -632,7 +773,9 @@
       "guid": "a6eaae0a-d009-4e4e-9f9b-1148b157e2b8",
       "name": "Hogan Mckinney",
       "recipes": [
-        0
+        "52864",
+        "52876",
+        "52880"
       ],
       "experience": 8,
       "photoUrl": "http://placehold.it/32x32"
@@ -643,7 +786,10 @@
       "guid": "f36c5069-5f5f-4f7c-8b20-5d34c667c2bf",
       "name": "Lelia Payne",
       "recipes": [
-        0
+        "53061",
+        "53059",
+        "53057",
+        "53062"
       ],
       "experience": 13,
       "photoUrl": "http://placehold.it/32x32"
@@ -654,7 +800,11 @@
       "guid": "1121e5b3-7133-4276-900c-a818c36e7171",
       "name": "Vargas Preston",
       "recipes": [
-        0
+        "52900",
+        "52991",
+        "52902",
+        "52886",
+        "52889"
       ],
       "experience": 9,
       "photoUrl": "http://placehold.it/32x32"
@@ -665,7 +815,12 @@
       "guid": "75ccd22c-ee56-47f5-8832-a0f38aacb00a",
       "name": "Clarice Rocha",
       "recipes": [
-        0
+        "52990",
+        "52899",
+        "52791",
+        "52888",
+        "52895",
+        "52802"
       ],
       "experience": 14,
       "photoUrl": "http://placehold.it/32x32"
@@ -676,7 +831,9 @@
       "guid": "5062e251-7664-4908-9a52-04bbf697fc2d",
       "name": "Veronica Gomez",
       "recipes": [
-        0
+        "52767",
+        "52792",
+        "52873"
       ],
       "experience": 10,
       "photoUrl": "http://placehold.it/32x32"
@@ -687,7 +844,10 @@
       "guid": "91e4900d-7d67-4ed0-9369-35ad3643d8c9",
       "name": "Vega Garrett",
       "recipes": [
-        0
+        "52846",
+        "52853",
+        "52875",
+        "52897"
       ],
       "experience": 15,
       "photoUrl": "http://placehold.it/32x32"
@@ -698,7 +858,10 @@
       "guid": "d15e39ed-26be-4821-b962-9447e8e6e5f3",
       "name": "Margret Rice",
       "recipes": [
-        0
+        "52803",
+        "52824",
+        "52842",
+        "52848"
       ],
       "experience": 5,
       "photoUrl": "http://placehold.it/32x32"

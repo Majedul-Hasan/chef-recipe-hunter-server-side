@@ -60,6 +60,18 @@ app.get('/recipes/:chef_id', (req, res) => {
       res.json(chefsResList);
     } else  res.send('recipe not Found')
 })
+app.get('/origin/:origin', (req, res) => {
+    const {origin} = req.params
+    console.log(origin);
+    const recipeList = recipes.filter(x=>x.strArea.toLowerCase() === origin.toLowerCase())
+    if(recipeList){      
+        res.send(recipeList)
+    } else {
+        res.send('recipe not Found')
+    }  
+})
+
+//testing routes
 app.get('/foods/:origin', (req, res) => {
     const {origin} = req.params
     console.log(origin);
