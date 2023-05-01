@@ -14,17 +14,20 @@ const recipes = require('./data/recipes.json');
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.get('/chefsProfile', (req, res) => {
+app.get('/chefsProfile-all', (req, res) => {
   res.json(chefsProfile)
 })
-app.get('/recipes', (req, res) => {
+app.get('/recipes-all', (req, res) => {
   res.json(recipes)
 })
-app.get('/recipes/region', (req, res) => {
+app.get('/recipes/regions', (req, res) => {
     const regions = recipes.map(x=>x.strArea)
    const regionList = regions.filter((value, index, array) => array.indexOf(value) === index)
-
-
+  res.json(regionList)
+})
+app.get('/recipes/category', (req, res) => {
+    const category = recipes.map(x=>x.strCategory)
+   const regionList = category.filter((value, index, array) => array.indexOf(value) === index)
   res.json(regionList)
 })
 app.get('/recipes/:chef_id', (req, res) => {
@@ -70,6 +73,35 @@ app.get('/origin/:origin', (req, res) => {
         res.send('recipe not Found')
     }  
 })
+
+
+app.get('/recipe/:id', (req, res) => {
+    const {id} = req.params
+    const recipe = recipes.find(x=> x.idMeal === id)
+    const chefsProfil = chefsProfile.find(c =>c.recipes.includes(id) )
+    const yourRecipe = {
+        recipe,
+        chefsProfil
+    }
+  res.json(yourRecipe)
+})
+/** search by alphabet */
+
+app.get('/recipe/alpha/:alpha', (req, res) => {
+    const {alpha} = req.params
+    console.log(alpha);
+    const sercecipes = recipes.filter(x=> x.strMeal.toLowerCase().startsWith(alpha.toLowerCase()))
+  res.json(sercecipes)
+})
+/** search by strCategory */
+
+app.get('/recipe/strCategory/:strCategory', (req, res) => {
+    const {strCategory} = req.params
+    console.log(strCategory);
+    const sercecipes = recipes.filter(x=> x.strCategory.toLowerCase() === strCategory.toLowerCase())
+  res.json(sercecipes)
+})
+
 
 //testing routes
 app.get('/foods/:origin', (req, res) => {
