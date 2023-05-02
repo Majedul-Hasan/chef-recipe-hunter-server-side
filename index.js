@@ -24,11 +24,16 @@ app.get('/recipes/regions', (req, res) => {
    const regionList = regions.filter((value, index, array) => array.indexOf(value) === index)
   res.json(regionList)
 })
+
+
 app.get('/recipes/category', (req, res) => {
     const category = recipes.map(x=>x.strCategory)
-   const regionList = category.filter((value, index, array) => array.indexOf(value) === index)
-  res.json(regionList)
+   const categoryList = category.filter((value, index, array) => array.indexOf(value) === index)
+  res.json(categoryList)
 })
+
+
+
 app.get('/recipes/:chef_id', (req, res) => {
     const {chef_id} = req.params
     const chefsResList = chefsProfile.find(x=>x._id ===chef_id)
