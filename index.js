@@ -1,14 +1,13 @@
 
 const express = require('express')
 const cors = require('cors')
+// const cors = require('cors')
 require('dotenv').config()
 const app = express()
 const port = process.env.PORT || 5200
-app.use(cors())
+app.use(cors())  
 const chefsProfile = require('./data/chefsProfile.json');
 const recipes = require('./data/recipes.json');
-
-
 
 
 app.get('/', (req, res) => {
@@ -47,7 +46,7 @@ app.get('/recipes/:chef_id', (req, res) => {
                     strIngredients[ingredient] = measure;
                 }
             }
-            console.log(strIngredients);
+            // console.log(strIngredients);
              newMeal = {
                 ...y,
                 strIngredients: strIngredients,
@@ -65,7 +64,7 @@ app.get('/recipes/:chef_id', (req, res) => {
 })
 app.get('/origin/:origin', (req, res) => {
     const {origin} = req.params
-    console.log(origin);
+    // console.log(origin);
     const recipeList = recipes.filter(x=>x.strArea.toLowerCase() === origin.toLowerCase())
     if(recipeList){      
         res.send(recipeList)
@@ -89,7 +88,7 @@ app.get('/recipe/:id', (req, res) => {
 
 app.get('/recipe/alpha/:alpha', (req, res) => {
     const {alpha} = req.params
-    console.log(alpha);
+    // console.log(alpha);
     const sercecipes = recipes.filter(x=> x.strMeal.toLowerCase().startsWith(alpha.toLowerCase()))
   res.json(sercecipes)
 })
@@ -97,7 +96,7 @@ app.get('/recipe/alpha/:alpha', (req, res) => {
 
 app.get('/recipe/strCategory/:strCategory', (req, res) => {
     const {strCategory} = req.params
-    console.log(strCategory);
+    // console.log(strCategory);
     const sercecipes = recipes.filter(x=> x.strCategory.toLowerCase() === strCategory.toLowerCase())
   res.json(sercecipes)
 })
@@ -106,7 +105,7 @@ app.get('/recipe/strCategory/:strCategory', (req, res) => {
 //testing routes
 app.get('/foods/:origin', (req, res) => {
     const {origin} = req.params
-    console.log(origin);
+    // console.log(origin);
     const recipeList = recipes.filter(x=>x.strArea.toLowerCase() === origin.toLowerCase())
     if(recipeList){      
         res.send(recipeList.map(x=>x.idMeal))
