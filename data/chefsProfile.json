@@ -4,13 +4,17 @@
       "index": 0,
       "guid": "907df34e-6450-4f49-a2eb-fadc5dcbf5b9",
       "name": "Herring Noble",
+      "likes" : 12411,
       "recipes": [
         "52961",
+        "52895",
+        "52802",
+        "52896",
+        "52890",
         "52796",
         "52839"
       ],
       "experience": 5,
-      "strArea": "British",
       "photoUrl": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/chef-cooking.jpg?quality=82&strip=1"
     },
     {
@@ -18,11 +22,17 @@
       "index": 1,
       "guid": "b78f07e5-ad32-49ca-80ef-9a6146162f06",
       "name": "Valencia Robles",
+      "likes" : 12411,
       "recipes": [
         "52835",
         "53064",
         "52844",
         "52777",
+        "52988",
+        "52990",
+        "52899",
+        "52791",
+        "52888",
         "52810"
       ],
       "experience": 10,
@@ -33,10 +43,14 @@
       "index": 2,
       "guid": "9961061e-bc19-48f9-aa7b-496a1443e055",
       "name": "Klein Stevens",
+      "likes" : 12411,
       "recipes": [
         "52837",
         "53014",
         "52811",
+        "52898",
+        "52966",
+        "52989",
         "52770"
       ],
       "experience": 8,
@@ -47,8 +61,13 @@
       "index": 3,
       "guid": "27f0c4cf-a177-41cf-93c1-fce5258b9051",
       "name": "Elnora Phelps",
+      "likes" : 12411,
       "recipes": [
         "52771",
+        "52846",
+        "52853",
+        "52875",
+        "52897",
         "52823",
         "52849"
       ],
@@ -60,9 +79,13 @@
       "index": 4,
       "guid": "098c71cb-2b07-4b95-a7b8-28c482ad5f3b",
       "name": "Stein Nelson",
+      "likes" : 12411,
       "recipes": [
          "52866",
          "52982",
+         "52959",
+         "52788",
+         "52841",
           "52775",
           "52838"
       ],
@@ -74,10 +97,13 @@
       "index": 5,
       "guid": "c263d62b-2014-42a6-8cdc-fd4b92e07355",
       "name": "Jennifer Adams",
+      "likes" : 12411,
       "recipes": [
         "52852",
         "52909",
         "52912",
+        "52891",
+        "52894",
         "52917"
       ],
       "experience": 10,
@@ -88,9 +114,12 @@
       "index": 6,
       "guid": "8dd9b934-c2a1-4970-b8a4-2e99626b6daf",
       "name": "Hannah Hodge",
+      "likes" : 12411,
       "recipes": [
         "52922",
         "52908",
+        "52874",
+        "52878",    
         "52911",
         "52935"
       ],
@@ -102,9 +131,15 @@
       "index": 7,
       "guid": "910ac2af-5b81-4cb1-9220-73d47d728b47",
       "name": "Newton Berger",
+      "likes" : 12411,
       "recipes": [
         "52847",
         "52916",
+        "52842",
+        "52848",
+        "52873",
+        "52803",
+        "52824",
         "52921"
       ],
       "experience": 5,
@@ -115,9 +150,13 @@
       "index": 8,
       "guid": "0fca3ca9-c23b-4a50-b74c-efbf22977adb",
       "name": "Ellen Lang",
+      "likes" : 12411,
       "recipes": [
         "52915",
         "52918",
+        "52893",
+        "52767",
+        "52792",
         "52919"
       ],
       "experience": 13,
@@ -128,10 +167,12 @@
       "index": 9,
       "guid": "39deef54-8d16-4edc-aa85-a323b6f56dfe",
       "name": "Celeste Morrison",
+      "likes" : 12411,
       "recipes": [
         "52815",
-  "52903",
-  "52906"
+        "52903",
+        "52768",
+        "52906"
       ],
       "experience": 13,
       "photoUrl": "https://st4.depositphotos.com/4366637/22797/i/1600/depositphotos_227971072-stock-photo-black-brazilian-woman-chef-cooking.jpg"
@@ -141,9 +182,14 @@
       "index": 10,
       "guid": "b0af951f-63af-43f1-998d-cb9719a6a5ad",
       "name": "Marcia Meyer",
+      "likes" : 12411,
       "recipes": [
         "52934",
-        "52907"
+        "52907",
+        "52882",
+        "52892",
+        "52863",
+        "52867"
       ],
       "experience": 8,
       "photoUrl": "https://media1.popsugar-assets.com/files/thumbor/9qEG3MrzQh21OgGWjnuupTZxcdw/0x3:1006x1009/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2020/06/09/843/n/46902964/67c65e445edfdfa3bd9a00.42667560_/i/black-chefs-and-food-bloggers-to-follow-on-instagram.png"
@@ -153,7 +199,12 @@
       "index": 11,
       "guid": "a7a6110b-5fcb-454f-9249-d8f0d8dbda3d",
       "name": "Rosella Harmon",
+      "likes" : 12411,
       "recipes": [
+        "52960",
+        "53005",
+        "52822",
+        "52845",
         "52910",
         "52920"
       ],
@@ -165,7 +216,13 @@
       "index": 12,
       "guid": "e6eeb0cb-2777-4a32-adbb-392430e00466",
       "name": "Franco Taylor",
+      "likes" : 12411,
       "recipes": [
+        "52881",
+        "52883",
+        "52886",
+        "52889",
+        
         "52879",
         "52905"
       ],
@@ -177,8 +234,13 @@
       "index": 13,
       "guid": "35a90a32-6c8b-407f-9f95-1e4da152c9ef",
       "name": "Christine Mcneil",
+      "likes" : 12411,
       "recipes": [
         "52776",
+        "52902",
+        "52901",
+        "52784",
+        "52793",
         "52832"
       ],
       "experience": 8,
@@ -189,8 +251,13 @@
       "index": 14,
       "guid": "721dc6b8-b0db-4b65-94a5-9a418a350b46",
       "name": "Cohen Cantrell",
+      "likes" : 12411,
       "recipes": [
-        "52914"
+        "52914",
+        "52876",
+        "52880",
+        "52900",
+        "52991"
       ],
       "experience": 10,
       "photoUrl": "https://www.shutterstock.com/image-photo/restaurant-kitchen-black-female-chef-260nw-2141025575.jpg"
@@ -200,8 +267,13 @@
       "index": 15,
       "guid": "320ef4e8-526b-43d7-941c-75811ebbe211",
       "name": "Kramer Mercer",
+      "likes" : 12411,
       "recipes": [
         "52904",
+        "52887",
+        "52877",
+        "52884",
+        "52864",
         "52913"
       ],
       "experience": 14,

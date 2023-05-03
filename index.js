@@ -8,14 +8,27 @@ const port = process.env.PORT || 5200
 app.use(cors())  
 const chefsProfile = require('./data/chefsProfile.json');
 const recipes = require('./data/recipes.json');
+const countryName = require('./data/countryName.json');
+const countries = require('./data/countries.json');
 
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+app.get('/chefsProfile-all/:limit', (req, res) => {
+  const limit = req.params.limit
+  const chefs =  chefsProfile.filter((item, idx) => idx < limit)
+
+  res.json(chefs)
+})
 app.get('/chefsProfile-all', (req, res) => {
   res.json(chefsProfile)
 })
+app.get('/country', (req, res) => {  
+  res.json(countryName)
+  
+})
+
 app.get('/recipes-all', (req, res) => {
   res.json(recipes)
 })
@@ -58,11 +71,9 @@ app.get('/recipes/:chef_id', (req, res) => {
             };
         } 
       })
+      
       return newMeal
-    }
-     
-      )
-
+    })
       chefsResList.recipes = x;
       res.json(chefsResList);
     } else  res.send('recipe not Found')
@@ -118,6 +129,21 @@ app.get('/foods/:origin', (req, res) => {
         res.send('recipe not Found')
     }  
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
