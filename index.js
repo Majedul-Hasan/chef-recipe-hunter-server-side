@@ -10,6 +10,7 @@ const chefsProfile = require('./data/chefsProfile.json');
 const recipes = require('./data/recipes.json');
 const countryName = require('./data/countryName.json');
 const countries = require('./data/countries.json');
+const blogs = require('./data/blog.json');
 
 
 app.get('/', (req, res) => {
@@ -24,6 +25,15 @@ app.get('/chefsProfile-all/:limit', (req, res) => {
 app.get('/chefsProfile-all', (req, res) => {
   res.json(chefsProfile)
 })
+app.get('/blogs', (req, res) => {
+  res.json(blogs)
+})
+app.get('/blogs/:id', (req, res) => {
+  const id = req.params.id
+
+  const blog = blogs.find(x=>x._id ===id)
+  res.json(blog)
+})
 app.get('/country', (req, res) => {  
   res.json(countryName)
   
@@ -31,6 +41,12 @@ app.get('/country', (req, res) => {
 
 app.get('/recipes-all', (req, res) => {
   res.json(recipes)
+})
+app.get('/recipes-all/:limit', (req, res) => {
+  const limit = req.params.limit
+  const recipesLimited =  recipes.filter((item, idx) => idx < limit)
+
+  res.json(recipesLimited)
 })
 app.get('/recipes/regions', (req, res) => {
     const regions = recipes.map(x=>x.strArea)
@@ -50,7 +66,10 @@ app.get('/recipes/category', (req, res) => {
 app.get('/recipes/:chef_id', (req, res) => {
     const {chef_id} = req.params
     const chefsResList = chefsProfile.find(x=>x._id ===chef_id)
+
     if(chefsResList){
+      const {name} = chefsResList
+      const bio = `${name} is a culinary prodigy whose passion has taken him around the world. Experienced in French, Italian, and Asian cuisine, he has earned repute in the kitchen as well as recognition among the food critics.`
         
       const x =  chefsResList.recipes.map(x=>{
         let newMeal = {}
@@ -71,10 +90,11 @@ app.get('/recipes/:chef_id', (req, res) => {
             };
         } 
       })
-      
+
       return newMeal
     })
-      chefsResList.recipes = x;
+      chefsResList.recipesNew = x;
+      chefsResList.bio = bio;
       res.json(chefsResList);
     } else  res.send('recipe not Found')
 })
@@ -93,9 +113,29 @@ app.get('/origin/:origin', (req, res) => {
 app.get('/recipe/:id', (req, res) => {
     const {id} = req.params
     const recipe = recipes.find(x=> x.idMeal === id)
-    const chefsProfil = chefsProfile.find(c =>c.recipes.includes(id) )
+   
+    let newRecipe ={}
+
+    if(recipe.idMeal){
+      const strIngredients = {};
+      for (let i = 1; i <= 20; i++) {
+          const ingredient = recipe[`strIngredient${i}`];
+          const measure = recipe[`strMeasure${i}`];
+          if (ingredient && measure) {
+              strIngredients[ingredient] = measure;
+          }
+      }
+      // console.log(strIngredients);
+      // console.log(strIngredients);
+      newRecipe = {
+          ...recipe,
+          strIngredients: strIngredients,
+      };
+      console.log(newRecipe); 
+  } 
+  const chefsProfil = chefsProfile.find(c =>c.recipes.includes(id) )
     const yourRecipe = {
-        recipe,
+      recipe: newRecipe,
         chefsProfil
     }
   res.json(yourRecipe)

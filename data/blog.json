@@ -1,0 +1,95 @@
+[
+    {
+      "_id": "6453451b0b1a8ec8ab7ecea7",
+      "index": 0,
+      "guid": "542dd358-51a7-454a-af19-9013122bf3c3",
+      "title": "What are Controlled and Uncontrolled Components",
+      "description": "Controlled Components: In the controlled component the form input element’s values and mutations are totally driven by event handlers and the value of the input element is always inferred from the state, 1. The text input has the value attribute set as the components state ‘text’. This is very important so that the input component’s value will always be in sync with the components state ‘text’ s value. 2. The text input Secondly, we are handling the change event emitted by the input element whenever a user tries to update the input element's value. Inside the handler function, we are mutating the ‘text ’state with the updated input value.  Uncontrolled Components: the controlled component then you have already guessed how uncontrolled components work. Yes, they don’t use any states on input elements or any event handler. This type of component doesn’t care about an input element’s real-time value changes.",
+      "main": "When we talk about Controlled and Uncontrolled Components, it’s always referring to components",
+      "views": 10621,
+      "likes": 1462,
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*SX2dWWAPDrLfGbNyoHJThw.png"
+    },
+    {
+      "_id": "6453451b475bfdd71efbac22",
+      "index": 1,
+      "guid": "1f8a8ea2-8b60-4ec1-bc5d-3a5b9876f115",
+      "title": "How to validate React props using PropTypes",
+      "description": "Props and PropTypes are important mechanisms for passing read-only attributes between React components. We can use React props, short for properties, to send data from one component to another. If a component receives the wrong type of props, it can cause bugs and unexpected errors in your app. Since JavaScript doesn’t have a built-in type checking solution, many developers use extensions like TypeScript and Flow. However, React has an internal mechanism for props validation called PropTypes. Why should you validate props in React? When developing a React application, you’ll need to structure and define your props to avoid bugs and errors. Just like a function might have mandatory arguments, a React component might require a prop to be defined, otherwise, it will not render properly. Forgetting to pass a required prop into a component that needs it could cause your app to behave unexpectedly. PropTypes is React’s internal mechanism for adding type checking to component props. React components use a special property called propTypes to set up type checking. ReactComponent.propTypes = {  // ...prop type definitions here},,,, If default props are set for the React component, the values are first resolved before type checking against propTypes. Therefore, default values are also subject to the prop type definitions. Using the prop-types library in React. Prior to React v15.5.0, a utility called PropTypes was available as part of the React package, which provided a lot of validators for configuring type definitions for component props. You could access it with React.PropTypes. However, in later versions of React, this utility has been moved to a separate package called prop-types. To get access to the PropTypes utility, you need to add prop-types as a dependency for your project. The PropTypes utility exports a wide range of validators for configuring type definitions. Below, we’ll list the available validators for basic, renderable, instance, multiple, collection, and required prop types.",
+
+
+
+      "main": "Props and PropTypes are important mechanisms for passing read-only attributes between React components. ",
+      "views": 5435,
+      "likes": 1464,
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:1200/1*Y1RE_flJEuySBI-crC0RFg.jpeg"
+    },
+    {
+      "_id": "6453451bedd78814a30be282",
+      "index": 2,
+      "guid": "2d313e89-1307-4ca5-b3b5-011d9747a3b2",
+      "title": "What are the prime differences between Node JS and Express JS",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to use JavaScript on the server-side, outside of a web browser. Node.js provides a set of built-in modules for handling low-level operations such as file system access, networking, and stream processing. It also has a built-in HTTP module that allows developers to create a web server. Express.js, on the other hand, is a web framework for Node.js that provides a higher-level, more abstract interface for building web applications. It is built on top of Node.js and provides additional features such as routing, middleware, and templating engines. Express.js makes it easier to build web applications by providing a simple and flexible API for handling HTTP requests and responses.In essence, Node.js is a runtime environment that allows you to execute JavaScript code outside of a web browser, while Express.js is a web framework that provides a set of tools and abstractions to make it easier to build web applications using Node.js. You can use Node.js without Express.js, but it is common to use Express.js when building web applications with Node.js because it provides a lot of useful features and abstractions that make the development process more efficient.",
+      "main": "Express is a minimal and flexible node. js web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.",
+      "views": 7961,
+      "likes": 835,
+      "photoUrl": "https://procoders.tech/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Express-JS-vs-Node-JS_-Why-its-Time-to-Migrate_-1.png.webp"
+    },
+
+    
+    {
+      "_id": "6453451b69a6dd5a1448b8e2",
+      "index": 3,
+      "guid": "cf0c3e40-7f50-4402-910e-734b7a669455",
+      "title": "What is a custom hook, and why will you create a custom hook?",
+      "description": "1. Reusability  Custom React JS hooks offer reusability as when a custom hook is created, it can be reused easily, which makes the code cleaner and reduces the time to write the code. It also enhances the rendering speed of the code as a custom hook does not need to be rendered again and again while rendering the whole code.    Readability. 2.  Instead of using High-Order Components (HOCs), one can use custom hooks to improve the readability of the code. Complex codes can become hard to read if layers of providers surround the components, consumers, HOCs, render props, and other abstractions, generally known as wrapper hell. On the other hand, using custom React JS hooks can provide a cleaner logic and a better way to understand the relationship between data and the component.3   Testability :   Generally, the test containers and the presentational components are tested separately in React. This is not a trouble when it comes to unit tests. But, if a container contains several HOCs, it becomes difficult as you will have to test the containers and the components together to do the integration tests.  Using custom React JS hooks, this problem can be eliminated as the hooks allow you to combine containers and components into one component. It also makes it easier to write separate unit tests for custom hooks. Using custom hooks also makes it easier to mock hooks when compared to mock HOCs as it is similar to mocking a function. A.   How do you make a custom hook in React?   A custom React JS hook is created by using the ‘use’ prefix. For eg, a custom hook can be named ‘useLocalStorage’ or ‘useBoolean’. A custom hook will consist of one or more React JS hooks from the library. B.    When would you use React custom Hooks?    If you have one or multiple React hooks that will be used at multiple locations in a code, you should use custom React JS hooks. This helps in making the code more readable and make the code clean. ",
+      "views": 10220,
+      "likes": 1245,
+      "main": "Custom React JS hooks offer reusability as when a custom hook is created, it can be reused easily, which makes the code cleaner and reduces the time to write the code.",
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
+    },
+    {
+      "_id": "6453451b0af7d1582af48fcc",
+      "index": 4,
+      "guid": "d91571a5-25a0-4bf6-989f-5b6676e02876",
+      "title": "Rosario Navarro",
+      "description": "Dolor ex Lorem ex non Lorem reprehenderit fugiat. Ad sunt qui esse ullamco consequat. Ipsum velit fugiat non id dolore. Veniam cillum eu eiusmod eu. Nulla dolore ullamco labore ipsum qui id. Ea dolor elit nostrud duis. Eiusmod magna magna ex dolore pariatur irure amet excepteur ut ullamco ut nulla adipisicing. Nulla Lorem mollit labore qui occaecat fugiat fugiat deserunt. Id nostrud esse anim sint ut id qui elit laboris. Duis et esse mollit ad est aliqua velit.",
+      "main": "Laboris do adipisicing ea eu occaecat sit consectetur ea aute.",
+      "views": 10431,
+      "likes": 526,
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
+    },
+    {
+      "_id": "6453451b12c46ef0ca8a205b",
+      "index": 5,
+      "guid": "0823bdfe-a781-456a-b1a8-efd6c42c5e70",
+      "title": "Meghan Hicks",
+      "description": "Qui Lorem magna enim veniam tempor laboris aute. Dolor aliquip in cupidatat et dolor labore. Cillum cupidatat qui minim aliqua nostrud elit fugiat ipsum ad cupidatat enim qui reprehenderit. Esse nostrud ullamco aute ad fugiat dolore veniam elit. Commodo ea voluptate incididunt aute anim laborum aliquip Lorem. Enim dolore ad duis nisi. Lorem pariatur quis voluptate ex pariatur irure aliqua commodo. Labore ad sit est veniam anim tempor non laborum excepteur cillum incididunt nostrud non ullamco. Reprehenderit minim ex occaecat sit dolore occaecat ipsum non magna incididunt. Proident laboris dolore commodo culpa velit amet.",
+      "main": "Anim veniam irure culpa minim.",
+      "views": 10522,
+      "likes": 1316,
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
+    },
+    {
+      "_id": "6453451b6dd316fc23f186d6",
+      "index": 6,
+      "guid": "1e5d01c7-fbf0-4cdd-a46f-7a36a8c5e054",
+      "title": "Josefa Levine",
+      "description": "Esse minim amet culpa in esse ex veniam dolor aliquip. Laborum amet Lorem irure officia irure excepteur nisi consectetur enim do. Voluptate consectetur non nulla amet excepteur qui aliqua. Sunt sit minim officia minim dolor tempor ea non mollit. Incididunt quis proident cupidatat consectetur. Culpa dolor cillum et dolore. Tempor ea id velit amet ipsum sit anim velit voluptate adipisicing ullamco non Lorem. Amet in consectetur aliqua nulla voluptate proident eu officia laborum. Do qui cupidatat quis reprehenderit laborum sint commodo cillum quis. Magna nulla est nulla do culpa mollit anim est est.",
+      "main": "Aute reprehenderit consequat in aute do aute ut sunt magna.",
+      "views": 6555,
+      "likes": 815,
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
+    },
+    {
+      "_id": "6453451bd874c1074b968bf1",
+      "index": 7,
+      "guid": "e4134965-3682-4366-89c7-1d1d93fbba8d",
+      "title": "Roberta Blackburn",
+      "description": "Voluptate elit officia ipsum irure reprehenderit Lorem officia sunt ea cupidatat incididunt consectetur adipisicing. Quis quis qui nulla amet quis reprehenderit do tempor velit quis. Laboris reprehenderit dolore magna irure id. Aliqua elit Lorem nulla aliqua eiusmod in irure sint. Voluptate consequat officia magna laboris in laboris non labore minim sint fugiat et. Aute irure consectetur minim aute sit qui nulla occaecat aliquip non consectetur dolor. Consequat irure velit sunt sit ex velit dolore veniam. Duis reprehenderit elit id ipsum ullamco proident cillum voluptate incididunt in sunt nisi. Amet aliquip nostrud labore enim laboris. Adipisicing labore aute voluptate cupidatat reprehenderit aute.",
+      "main": "Fugiat et pariatur quis reprehenderit qui.",
+      "views": 10478,
+      "likes": 1354,
+      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
+    }
+  ]
