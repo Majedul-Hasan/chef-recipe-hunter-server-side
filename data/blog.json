@@ -47,49 +47,6 @@
       "likes": 1245,
       "main": "Custom React JS hooks offer reusability as when a custom hook is created, it can be reused easily, which makes the code cleaner and reduces the time to write the code.",
       "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
-    },
-    {
-      "_id": "6453451b0af7d1582af48fcc",
-      "index": 4,
-      "guid": "d91571a5-25a0-4bf6-989f-5b6676e02876",
-      "title": "Rosario Navarro",
-      "description": "Dolor ex Lorem ex non Lorem reprehenderit fugiat. Ad sunt qui esse ullamco consequat. Ipsum velit fugiat non id dolore. Veniam cillum eu eiusmod eu. Nulla dolore ullamco labore ipsum qui id. Ea dolor elit nostrud duis. Eiusmod magna magna ex dolore pariatur irure amet excepteur ut ullamco ut nulla adipisicing. Nulla Lorem mollit labore qui occaecat fugiat fugiat deserunt. Id nostrud esse anim sint ut id qui elit laboris. Duis et esse mollit ad est aliqua velit.",
-      "main": "Laboris do adipisicing ea eu occaecat sit consectetur ea aute.",
-      "views": 10431,
-      "likes": 526,
-      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
-    },
-    {
-      "_id": "6453451b12c46ef0ca8a205b",
-      "index": 5,
-      "guid": "0823bdfe-a781-456a-b1a8-efd6c42c5e70",
-      "title": "Meghan Hicks",
-      "description": "Qui Lorem magna enim veniam tempor laboris aute. Dolor aliquip in cupidatat et dolor labore. Cillum cupidatat qui minim aliqua nostrud elit fugiat ipsum ad cupidatat enim qui reprehenderit. Esse nostrud ullamco aute ad fugiat dolore veniam elit. Commodo ea voluptate incididunt aute anim laborum aliquip Lorem. Enim dolore ad duis nisi. Lorem pariatur quis voluptate ex pariatur irure aliqua commodo. Labore ad sit est veniam anim tempor non laborum excepteur cillum incididunt nostrud non ullamco. Reprehenderit minim ex occaecat sit dolore occaecat ipsum non magna incididunt. Proident laboris dolore commodo culpa velit amet.",
-      "main": "Anim veniam irure culpa minim.",
-      "views": 10522,
-      "likes": 1316,
-      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
-    },
-    {
-      "_id": "6453451b6dd316fc23f186d6",
-      "index": 6,
-      "guid": "1e5d01c7-fbf0-4cdd-a46f-7a36a8c5e054",
-      "title": "Josefa Levine",
-      "description": "Esse minim amet culpa in esse ex veniam dolor aliquip. Laborum amet Lorem irure officia irure excepteur nisi consectetur enim do. Voluptate consectetur non nulla amet excepteur qui aliqua. Sunt sit minim officia minim dolor tempor ea non mollit. Incididunt quis proident cupidatat consectetur. Culpa dolor cillum et dolore. Tempor ea id velit amet ipsum sit anim velit voluptate adipisicing ullamco non Lorem. Amet in consectetur aliqua nulla voluptate proident eu officia laborum. Do qui cupidatat quis reprehenderit laborum sint commodo cillum quis. Magna nulla est nulla do culpa mollit anim est est.",
-      "main": "Aute reprehenderit consequat in aute do aute ut sunt magna.",
-      "views": 6555,
-      "likes": 815,
-      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
-    },
-    {
-      "_id": "6453451bd874c1074b968bf1",
-      "index": 7,
-      "guid": "e4134965-3682-4366-89c7-1d1d93fbba8d",
-      "title": "Roberta Blackburn",
-      "description": "Voluptate elit officia ipsum irure reprehenderit Lorem officia sunt ea cupidatat incididunt consectetur adipisicing. Quis quis qui nulla amet quis reprehenderit do tempor velit quis. Laboris reprehenderit dolore magna irure id. Aliqua elit Lorem nulla aliqua eiusmod in irure sint. Voluptate consequat officia magna laboris in laboris non labore minim sint fugiat et. Aute irure consectetur minim aute sit qui nulla occaecat aliquip non consectetur dolor. Consequat irure velit sunt sit ex velit dolore veniam. Duis reprehenderit elit id ipsum ullamco proident cillum voluptate incididunt in sunt nisi. Amet aliquip nostrud labore enim laboris. Adipisicing labore aute voluptate cupidatat reprehenderit aute.",
-      "main": "Fugiat et pariatur quis reprehenderit qui.",
-      "views": 10478,
-      "likes": 1354,
-      "photoUrl": "https://miro.medium.com/v2/resize:fit:900/1*3o58vrDIfXWrbSomIrLXsQ.png"
     }
+   
   ]
